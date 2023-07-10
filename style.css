@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background: linear-gradient(90deg, rgb(14, 91, 124), rgb(214, 175, 63));
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font-family: "Courier Prime", monospace;
+	font-size: 2rem;
+}
+
+#inputs div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#inputs div input {
+	border: none;
+	padding: 0;
+}
+
+#gradientList {
+	font-size: 1rem;
+}
+
+button {
+	padding: 1rem 3rem;
+	margin: 2rem 0 0.8rem 0;
+	background-color: transparent;
+	color: black;
+	font-size: 1.2rem;
+	border: transparent;
+	border-radius: 14px;
+	font-family: inherit;
+}
+
+button:hover {
+	background-color: rgba(0, 0, 0, 0.277);
+	color: rgba(223, 223, 223, 0.495);
+	cursor: pointer;
+	transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+	border-radius: 14px;
+}
+
+#degree {
+	accent-color: black;
+}

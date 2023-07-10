@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="./style.css" />
+		<script src="./script.js" defer></script>
+	</head>
+	<body>
+		<div id="inputs">
+			<h1>Gradient Generator</h1>
+
+			<div>
+				<label for="color1">Color 1:</label>
+				<input type="color" id="color1" value="#0e5b7c" />
+			</div>
+
+			<div>
+				<label for="color2">Color 2:</label>
+				<input type="color" id="color2" value="#d6af3f" />
+			</div>
+			<!-- <div>
+				<label for="degree">Choose Angle</label>
+				<input type="range" name="angle" id="degree" min="1" max="360" />
+			</div> -->
+			<button id="button">Randomize</button>
+		</div>
+		<div>
+			<h2>Your Gradients:</h2>
+			<p id="gradientList">background: linear-gradient(90deg, #0e5b7c, #d6af3f);</p>
+		</div>
+	</body>
+</html>
